@@ -27,19 +27,19 @@ body {
 	width: 100%;
 	padding: 10px 0;
 	}
-	
+
 #nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	float: right;
 	}
-	
+
 #nav li {
 	float: left;
 	clear: none;
 	}
-	
+
 #nav li a {
 	margin-left: 40px;
 	padding-top: 10px;
@@ -53,7 +53,7 @@ body {
 #nav li a:hover {
 	background: url('../images/arrow.gif') no-repeat top center;
 	}
-	
+
 #head {
 	margin: 0.5em 0;
 	width: 100%;
@@ -67,7 +67,7 @@ body {
     overflow:hidden;
     width:601px;
     height:175px;
-    background: url(../images/domain51.png) no-repeat;
+    background: url(../images/logo.png) no-repeat;
 }
 
 #head h2 {
@@ -89,7 +89,7 @@ body {
 	padding: 0;
 	width: 100%;
 	}
-	
+
 #right {
 	width: 240px;
 	float: left;
@@ -105,7 +105,7 @@ body {
 	margin: 0 0 20px 0;
 	padding: 0;
 	}
-	
+
 #right li, .right2 li {
 	padding: 5px 0 5px 20px;
 	}
@@ -128,7 +128,7 @@ body {
 	padding-top: 40px;
 	margin-bottom: 40px;
 	}
-	
+
 h1 {
 	font: 400 1.4em "Helvetica Neue",helvetica,sans-serif;
 	color: #CCC;
@@ -142,21 +142,21 @@ h2 {
 	padding-top: 0px;
 	letter-spacing: -1px;
 	}
-	
+
 h3 {
 	font: 400 1.2em "Helvetica Neue",helvetica,sans-serif;
 	color: #AAA;
 	letter-spacing: -0.1em;
 	margin-bottom: 10px;
 	}
-	
+
 p {
 	line-height: 1.8em;
 	margin: 10px 0 20px 0;
 	color: #777;
 	font-size: 0.9em;
 	}
-	
+
 #content a, #content2 a, #foot a {
 	text-decoration: none;
 	}
@@ -171,22 +171,22 @@ img.content, a img.content {
 	border: 1px solid #444;
 	margin: 10px 0 10px 10px;
 	}
-	
+
 a:hover img.content {
 	border: 1px solid #000;
 	}
-	
+
 img.color, a img.color {
 	float: left;
 	padding: 1px;
 	border: 1px solid #444;
 	margin: 0 8px 0 0;
 	}
-	
+
 a:hover img.color {
 	border: 1px solid #999;
 	}
-	
+
 .right2 {
 	float: left;
 	width: 10px;
@@ -196,24 +196,24 @@ a:hover img.color {
 	text-align: right;
 	font-size: 0.9em;
 	}
-	
+
 .right2 h3 {
 	letter-spacing: -1px;
 	}
-	
+
 #content2 {
     float: left;
     width: 610px;
 	border-top: 5px solid #ddd;
 	padding-top: 40px;
 	}
-	
+
 ol {
 	color: #AAA;
 	font: 600 1.0em "Helvetica Neue",helvetica,sans-serif;
 	padding: 10px;
 	}
- 
+
 ol span {
 	font: 400 1.0em "Helvetica Neue",helvetica,sans-serif;
 	color: #777;
@@ -230,7 +230,7 @@ ol li {
 	padding: 10px;
 	color: #777
 	}
-	
+
 #content ul li, #content2 ul li {
 	padding-left: 17px;
 	background: url('../images/bullet2.gif') no-repeat left center;
@@ -239,7 +239,7 @@ ol li {
 
 table {
   width: 100%;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   font-size: 1em;
   border-collapse: collapse;
 }
@@ -248,7 +248,7 @@ table caption {
   margin-top: 20px;
   padding: 0 0 0.5em 3px;
   font: 400 1.2em "Helvetica Neue",helvetica,sans-serif;
-  text-align: left;  
+  text-align: left;
   letter-spacing: -1px;
 }
 
@@ -337,7 +337,7 @@ form input.button{
     background: #333;
 }
 
-#foot #footer_container #feeds { 
+#foot #footer_container #feeds {
     color: #999;
 }
 
@@ -438,7 +438,7 @@ div.post dl, div.post dl dt, div.post dl dd {
     color: #777;
 }
 
-fieldset { 
+fieldset {
     margin-top: 20px;
 }
 
