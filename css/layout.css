@@ -10,8 +10,8 @@ html, body {
 body {
 	font: 400 1.0em "Helvetica Neue",helvetica,sans-serif;
 	color: #333;
-	background-color: #fff;
-    background: #fff url(../images/small-pentagon.png) repeat-x;
+	background-color: #ddd;
+    background: #ddd url(../images/small-pentagon.png) repeat-x;
 	}
 
 #container {
