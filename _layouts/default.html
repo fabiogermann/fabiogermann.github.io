@@ -1,61 +1,74 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="openid.server" href="http://www.myopenid.com/server" />
-    <link rel="openid.delegate" href="http://tswicegood.myopenid.com/" />
-    <meta http-equiv="X-XRDS-Location" content="http://tswicegood.myopenid.com/xrds" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="openid.server" href="http://www.myopenid.com/server" />
+	<link rel="openid.delegate" href="http://tswicegood.myopenid.com/" />
+	<meta http-equiv="X-XRDS-Location" content="http://tswicegood.myopenid.com/xrds" />
 
-    <link href="http://grann.me/atom/"
-          rel="alternate"
-          title="Grann.me" type="application/atom+xml" />
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen" title="style (screen)" />
+	<link href="http://grann.me/atom/"
+		  rel="alternate"
+		  title="Grann.me" type="application/atom+xml" />
+	<!--link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen" title="style (screen)" /-->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap-hero.min.css" rel="stylesheet">
 
-    <title>{{ page.title }}</title>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<title>{{ page.title }}</title>
 </head>
 
 <body>
 
 <div id="container">
-    {% include navigation.html %}
+	{% include navigation.html %}
 
-    {% include header.html %}
+	{% include header.html %}
 
-    <div class="main">
+	<div class="main">
 
-        <div id="content">
-            {{ content }}
-        </div>
+		<div id="content">
+			{{ content }}
+		</div>
 
-        <div id="right">
-            <h3>Related Links</h3>
+		<div id="right">
+			<h3>Global Links</h3>
 
-            <ul>
-                <li><a href="http://github.com/fabiogermann">My GitHub Account</a></li>
-            </ul>
+			<ul>
+				<li><a href="http://github.com/fabiogermann">My GitHub Account</a></li>
+			</ul>
 
-        </div>
+		</div>
 
-    </div>
+	</div>
 </div>
 
 <div id="foot">
-    <div id="footer_container">
-        <div id="copyright">
-            <p>Copyright &copy; MCMXCIX&mdash;MMX <a href="http://domain51.com/">Domain51</a></p>
-        </div>
+	<div id="footer_container">
+		<div id="copyright">
+			<p>Copyright &copy; 2014 <a href="http://grann.me/">Fabio Germann</a></p>
+		</div>
 
-        <div id="feeds">
-        </div>
-    </div>
+		<div id="feeds">
+		</div>
+	</div>
 </div>
 
 
-    <div class="github-ribbon">
-        <a href="http://github.com/">
-            <img  src="" alt="Fork me on GitHub" /></a>
-    </div>
-<!-- Template inspired by DemusDesign: http://demusdesign.com/ -->
+	<div class="github-ribbon">
+		<a href="http://github.com/">
+			<img  src="" alt="Fork me on GitHub" /></a>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
 
